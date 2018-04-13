@@ -10,9 +10,9 @@ for f in /mnt/sniffs/pcapGatewayFull/*.pcap
 		do
 			
 			if [[ $i == $(basename $f) ]]; then
-	    	echo $(basename $f) $i filtered
+			echo $(basename $f) $i filtered
 			else
-	    	echo $(basename $f) $i unfiltered
+			echo $(basename $f) $i unfiltered
 			fi
 
 		done
